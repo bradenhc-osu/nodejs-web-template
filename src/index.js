@@ -79,3 +79,25 @@ const port = process.env.PORT || 3000;
 app.listen(port, function() {
   console.log('== Server is listening on port', port);
 });
+
+
+/*
+ROUTING
+
+app.get('/', function (req, res) {
+  res.status(200).render('homePage', {
+    // pass in the context object containing our exercise data
+    exercises: exerciseData
+  });
+});
+*/
+
+
+
+app.get('/', function (req, res) {
+    res.status(200).render('login');
+})
+
+app.use(express.static('public'));
+
+app.get()
