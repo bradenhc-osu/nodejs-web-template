@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+Page Functions
+
+A page that shows all friends and a place to put in a friends id to add or remove them.
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>PROFILE PAGE</title>
+        <meta name="description" content="An interactive video game rental website">
+        <link rel="stylesheet" href="../public/style.css">
+    </head>
+    <body>
+        <nav class="flex-container" id="navbar">
+            <a href="store.html" class="flexbox navButton">Store</a>
+            <a href="games.html" class="flexbox navButton">Games</a>
+            <a href="profile.html" class="flexbox navButton">Profile</a>
+            <a href="login.html" class="flexbox navButton">Log In / Out</a>
+        </nav>
+        <div class="flex-container" style="height: 60em;">
+            <div class="flexbox" id="pageContent">
+                <h1>Name: {{name}}</h1>
+                <h4>Info: {{info}}</h4>
+                
+            </div>
+            <div class="flexbox" id="sidebar">
+                <input id="searchbar" type="text" placeholder="Search Friends..">
+                <h3>Friends</h3>
+                <div class="debugBox" id="friends">
+                    
+                </div>
+                <h3>All friends</h3>
+                <div class="debugBox" id="friends">
+                
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+<!--
+Handlebars template script tag
+
+<script type="/txt/x-handlebars-template" id="profile-template">
+
+ts fun. Number 2 is pretty good, but I think 3 is the best halo thus far, although the master chief collection is quite the value at like 5 or 6 games for the price of 1 full game.
+-->

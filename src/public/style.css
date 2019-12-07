@@ -1,6 +1,167 @@
-html, body {
-  margin: 0px;
-  padding: 0px;
-  width: 100%;
-  height: 100%;
+body {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border: 2px solid black;
+    font-family: sans-serif;
+}
+
+h3 {
+    margin: auto;
+    text-align: center;
+}
+
+div {
+    margin: auto;
+}
+
+nav {
+    width: 25%;
+    display: flex;
+}
+p {
+    margin: auto;
+}
+
+
+#pageContent {
+    height: 100%;
+    width: 75%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    flex-grow: 4;
+    text-align: left;
+    background-color: ghostwhite;
+}
+
+#sidebar {
+    height: 100%;
+    width: 25%;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    flex-grow: 1;
+    background-color: lightgray;
+    display: flex;
+}
+
+#searchbar {
+    border: 3px solid black;
+    padding: 5px;
+    background-color: whitesmoke;
+    width: 96%;
+}
+
+#friends {
+    width: 90%;
+    height: 50%;
+}
+
+#navbar {
+    
+}
+
+#gameName {
+    width: 10%;
+    height: 100%;
+    margin: auto;
+    flex-grow: 1;
+}
+
+#desc {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    height: auto;
+    flex-grow: 6;
+    text-align: left;
+
+}
+
+#rating {
+    height: 100%;
+    width: 10%;
+    margin: auto;
+    flex-grow: 1;
+
+}
+#remove {
+    height: 100%;
+    width: 10%;
+    margin: auto;
+    flex-grow: 1;
+}
+#gamesTable {
+    border: 2px solid black;
+    padding: 5px;
+    height: auto;
+    width: auto;
+    margin: 20px;
+    text-align: center;
+}
+
+#loginForm {
+    border: 1px solid black;
+    margin: 25px;
+    padding: 25px;
+}
+#newUser {
+    margin-left: 85px;
+}
+
+
+.flex-container {
+    display: flex;
+    vertical-align: middle;
+    width: auto;
+}
+
+.flexbox {
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.navButton {
+    padding: 10px;
+    background-color: slategray;
+    flex-grow: 1;
+    flex-shrink: 0;
+    border: 1px solid black;
+    
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navButton:hover {
+    color: white;
+    background-color: black;
+    
+}
+
+.row {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: auto;
+    width: auto;
+}
+
+.login {
+    margin: 5px;
+    padding: 2px;
+    width: 350px
+}
+
+.tableborder {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+.debugBox {
+    border: 1px solid black;
+    padding: 10px;
 }
