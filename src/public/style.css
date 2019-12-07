@@ -24,6 +24,17 @@ p {
     margin: auto;
 }
 
+table {
+}
+
+td {
+    
+}
+
+tr {
+    
+}
+
 
 #pageContent {
     height: 100%;
@@ -64,21 +75,19 @@ p {
     
 }
 
-#gameName {
-    width: 10%;
+#title {
+    width: 40%;
     height: 100%;
     margin: auto;
     flex-grow: 1;
 }
 
-#desc {
-    width: 50%;
+#genre {
+    width: 40%;
     height: 100%;
     margin: auto;
     height: auto;
     flex-grow: 6;
-    text-align: left;
-
 }
 
 #rating {
@@ -110,6 +119,19 @@ p {
 }
 #newUser {
     margin-left: 85px;
+}
+
+#allgames {
+    
+}
+
+#signinButton {
+    width: 15%;
+    margin-left: 25px;
+}
+
+#newuserButton {
+    width: 15%
 }
 
 
@@ -157,6 +179,11 @@ p {
 
 .tableborder {
     border: 1px solid black;
+    padding: 10px;
+}
+
+.invisibleBorder {
+    border: 1px solid whitesmoke;
     padding: 10px;
 }
 
