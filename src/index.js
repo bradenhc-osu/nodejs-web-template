@@ -97,7 +97,16 @@ app.get('/', function (req, res) {
 app.get('/', function (req, res) {
     res.status(200).render('login');
 })
-
+app.get('/login', function (req, res) {
+    res.status(200).render('login');
+})
+app.get('/profile', function (req, res) {
+    res.status(200).render('profile');
+})
+app.get('/games', function (req, res) {
+    res.status(200).render('games');
+})
+app.get('/store', function (req, res) {
+    res.status(200).render('store');
+})
 app.use(express.static('public'));
-
-app.get()

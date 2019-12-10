@@ -189,6 +189,13 @@ tr {
     padding: 10px;
 }
 
+.pageTitle {
+    margin: auto;
+    text-align: center;
+    padding: 25px;
+    font-family: sans-serif;
+}
+
 
 .debugBox {
     border: 1px solid black;

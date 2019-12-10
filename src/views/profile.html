@@ -14,15 +14,14 @@ A page that shows all friends and a place to put in a friends id to add or remov
     </head>
     <body>
         <nav class="flex-container" id="navbar">
-            <a href="store.html" class="flexbox navButton">Store</a>
-            <a href="games.html" class="flexbox navButton">Games</a>
-            <a href="profile.html" class="flexbox navButton">Profile</a>
-            <a href="login.html" class="flexbox navButton">Log In / Out</a>
+            <a href="/store" class="flexbox navButton">Store</a>
+            <a href="/games" class="flexbox navButton">Games</a>
+            <a href="/profile" class="flexbox navButton">Profile</a>
+            <a href="/login" class="flexbox navButton">Log In / Out</a>
         </nav>
         <div class="flex-container" style="height: 60em;">
             <div class="flexbox" id="pageContent">
-                {{{>profile}}}
-                <h2>Friends</h2>
+                <h1 class="pageTitle">Friends</h1>
                 {{#each friends}}
                     {{>friend}}
                 {{/each}}
