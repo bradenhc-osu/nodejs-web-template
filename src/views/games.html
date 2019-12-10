@@ -25,12 +25,14 @@ A page that shows what they have rented, and a spot to put in a games id remove 
             <div class="flexbox" id="pageContent">
                 <div id="gamesTable">
                     <div class="flex-container row">
-                        <div class="flexbox tableborder" id="title"><h3>Name</h3></div>
-                        <div class="flexbox tableborder" id="genre"><h3>Genre</h3></div>
-                        <div class="flexbox tableborder" id="rating"><h3>Rating</h3></div>
-                        <div class="flexbox tableborder" id="remove"><h3>Remove</h3></div>
+                        <div class="flexbox tableborder title"><h3>Name</h3></div>
+                        <div class="flexbox tableborder genre"><h3>Genre</h3></div>
+                        <div class="flexbox tableborder rating"><h3>Rating</h3></div>
+                        <div class="flexbox tableborder remove"><h3>Remove</h3></div>
                     </div>
-                    {{{>game}}}
+                    {{#each games}}
+                        {{>game}}
+                    {{/each}}
                 </div>
             </div>
             <div class="flexbox" id="sidebar">

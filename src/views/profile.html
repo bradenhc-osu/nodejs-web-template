@@ -21,9 +21,11 @@ A page that shows all friends and a place to put in a friends id to add or remov
         </nav>
         <div class="flex-container" style="height: 60em;">
             <div class="flexbox" id="pageContent">
-                <h1>Name: {{name}}</h1>
-                <h4>Info: {{info}}</h4>
-                
+                {{{>profile}}}
+                <h2>Friends</h2>
+                {{#each friends}}
+                    {{>friend}}
+                {{/each}}
             </div>
             <div class="flexbox" id="sidebar">
                 <input id="searchbar" type="text" placeholder="Search Friends..">
