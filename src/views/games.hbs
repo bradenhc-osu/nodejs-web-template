@@ -1,0 +1,12 @@
+<h1 class="pageTitle">My Games</h1>
+<div id="gamesTable">
+    <div class="flex-container row">
+        <div class="flexbox tableborder title"><h3>Name</h3></div>
+        <div class="flexbox tableborder genre"><h3>Genre</h3></div>
+        <div class="flexbox tableborder rating"><h3>Rating</h3></div>
+        <div class="flexbox tableborder remove"><h3>Remove</h3></div>
+    </div>
+    {{#each games}}
+        {{>game}}
+    {{/each}}
+</div>

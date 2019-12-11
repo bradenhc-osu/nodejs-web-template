@@ -24,20 +24,7 @@ A page that shows all the games they don't have and they can put in a games id t
         </nav>
         <div class="flex-container" style="height: 60em;">
             <div class="flexbox" id="pageContent">
-                <h1 class="pageTitle">Store page</h1>
-                <div id="allgames" class="invisibleBorder">
-                    <div id="gamesTable">
-                    <div class="flex-container row">
-                        <div class="flexbox tableborder" id="title"><h3>Name</h3></div>
-                        <div class="flexbox tableborder" id="genre"><h3>Genre</h3></div>
-                        <div class="flexbox tableborder" id="rating"><h3>Rating</h3></div>
-                        <div class="flexbox tableborder" id="remove"><h3>Remove</h3></div>
-                    </div>
-                    {{#each games}}
-                        {{>game}}
-                    {{/each}}
-                    </div>
-                </div>
+                {{store}}
             </div>
             <div class="flexbox" id="sidebar">
                 <input id="searchbar" type="text" placeholder="Search Friends ID..">

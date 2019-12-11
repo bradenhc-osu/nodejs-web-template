@@ -20,12 +20,7 @@ A page that shows all friends and a place to put in a friends id to add or remov
             <a href="/login" class="flexbox navButton">Log In / Out</a>
         </nav>
         <div class="flex-container" style="height: 60em;">
-            <div class="flexbox" id="pageContent">
-                <h1 class="pageTitle">Friends</h1>
-                {{#each friends}}
-                    {{>friend}}
-                {{/each}}
-            </div>
+            {{profile}}
             <div class="flexbox" id="sidebar">
                 <input id="searchbar" type="text" placeholder="Search Friends..">
                 <h3>Friends</h3>

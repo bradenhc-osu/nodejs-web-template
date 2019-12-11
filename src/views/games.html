@@ -23,18 +23,7 @@ A page that shows what they have rented, and a spot to put in a games id remove 
         </nav>
         <div class="flex-container" style="height: 60em;">
             <div class="flexbox" id="pageContent">
-                <h1 class="pageTitle">My Games</h1>
-                <div id="gamesTable">
-                    <div class="flex-container row">
-                        <div class="flexbox tableborder title"><h3>Name</h3></div>
-                        <div class="flexbox tableborder genre"><h3>Genre</h3></div>
-                        <div class="flexbox tableborder rating"><h3>Rating</h3></div>
-                        <div class="flexbox tableborder remove"><h3>Remove</h3></div>
-                    </div>
-                    {{#each games}}
-                        {{>game}}
-                    {{/each}}
-                </div>
+                {{games}}
             </div>
             <div class="flexbox" id="sidebar">
                 <input id="searchbar" type="text" placeholder="Search Friends..">
